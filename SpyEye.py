@@ -9,6 +9,7 @@ from nltk.tokenize import word_tokenize
 import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+nltk.data.path.append("C:/Users/Saahil/AppData/Roaming/nltk_data")
 # LSTM 
 max_len = 150
 
