@@ -30,6 +30,7 @@ tok = joblib.load('tokenizer_retrained.pickle')
 # Download NLTK data
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 # Defining the lemma function
 def lemma(test_pred):
